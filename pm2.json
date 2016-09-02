@@ -1,0 +1,13 @@
+{
+  "apps": [
+    {
+      "name": "api-portal",
+      "script": "app.js",
+      "instances": 4,
+      "exec_mode": "cluster",
+      "watch": false,
+      "interpreter": "/usr/bin/node",
+      "log_date_format": "YYYY-MM-DD HH:mm Z"
+    }
+  ]
+}
